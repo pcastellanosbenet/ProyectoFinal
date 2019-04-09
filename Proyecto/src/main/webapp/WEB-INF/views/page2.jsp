@@ -307,22 +307,16 @@
         
         <!-- Modal body -->
         <div class="modal-body">
-         	<!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="eDOfji2Mra0EVDYtw3lN+touh3SFMrIkeF6irRXMDrGFwcnT0wCji9TBeMi8NkLjfC/ePlhGiCtMtysMiLrLyzrQd0LRfIeD7UmrHfidwld/ddNbwNmN+lT/6QKP1GCB">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                        </div>
-                    </div>
-                    <div class="dragArea row">
-                        <div class="form-group col" data-for="email">
-                            <input type="email" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-c">
-                        </div>
-                        <div class="col-auto input-group-btn">
-                            <button type="submit" class="btn btn-primary  display-4">SUBSCRIBE</button>
-                        </div>
-                    </div>
-                </form><!---Formbuilder Form--->
+         	<form id="form2" class="form-group" role="form">
+         		<label for="usuario">Usuario:</label>
+        <input type="text" class="form-control ml-4 mr-4" id="usuario" placeholder="Usuario"
+					name="usuario" required="required">
+        <label for="pwd">Password:</label>
+        <input	type="password" class="form-control ml-4 mr-4" id="pwd" 
+					placeholder="Entre su password" name="pwd" required="required" >
+        <div class="form-check"></div>        
+        <input id="aceptar" type="button" class="btn btn-success ml-4 mt-2" value="Aceptar">
+         	</form>
         </div>
         
         <!-- Modal footer -->
