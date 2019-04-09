@@ -45,8 +45,11 @@
                     <a class="nav-link link text-white display-4" href="https://mobirise.com">
                         <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Buscar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>
                 </li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-5" href="https://mobirise.com"><span class="mbri-key mbr-iconfont mbr-iconfont-btn"></span>
-                    Logg in</a></div>
+            <div class="navbar-buttons mbr-section-btn">
+            <a class="btn btn-sm btn-primary display-5" data-toggle="modal" data-target="#myModal">
+           	 <span class="mbri-key mbr-iconfont mbr-iconfont-btn"></span>
+                    Logg in</a>
+             </div>
         </div>
     </nav>
 </section>
@@ -287,6 +290,51 @@
     </div>    
 </section>
 
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         	<!---Formbuilder Form--->
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="eDOfji2Mra0EVDYtw3lN+touh3SFMrIkeF6irRXMDrGFwcnT0wCji9TBeMi8NkLjfC/ePlhGiCtMtysMiLrLyzrQd0LRfIeD7UmrHfidwld/ddNbwNmN+lT/6QKP1GCB">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                        </div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="form-group col" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-c">
+                        </div>
+                        <div class="col-auto input-group-btn">
+                            <button type="submit" class="btn btn-primary  display-4">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </form><!---Formbuilder Form--->
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
 
   <script src="resources/assets/web/assets/jquery/jquery.min.js"></script>
   <script src="resources/assets/popper/popper.min.js"></script>
@@ -304,5 +352,6 @@
   <script src="resources/assets/gallery/script.js"></script>
   <script src="resources/assets/slidervideo/script.js"></script>
   
+   <script src="resources/assets/formoid/formoid.min.js"></script>
 </body>
 </html>
