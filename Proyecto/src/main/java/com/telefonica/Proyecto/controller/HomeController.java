@@ -13,4 +13,16 @@ public class HomeController {
 		
 		return new ModelAndView("page2");
 	}
+	@RequestMapping(value="/irformulario")
+	public ModelAndView agregar() {		
+	    return new ModelAndView("redirect:/");
+	}
+	@RequestMapping(value="/allhotels")
+	public String allhotels() {		
+	    return "page4";
+	}
+	@RequestMapping(value="/contacus")
+	public String contacus() {		
+	    return "page5";
+	}
 }

@@ -34,13 +34,13 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-5" href="https://mobirise.com"><span class="mbri-globe-2 mbr-iconfont mbr-iconfont-btn"></span>ALL HOTELS</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-5" href="allhotels"><span class="mbri-globe-2 mbr-iconfont mbr-iconfont-btn"></span>ALL HOTELS</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="https://mobirise.com">
-                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
+                    <a class="nav-link link text-white display-4" href="contacus">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Contac us</a>
                 </li><li class="nav-item">
                     <a class="nav-link link text-white display-4" href="https://mobirise.com">
                         <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Buscar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>
@@ -290,40 +290,48 @@
     </div>    
 </section>
 
- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Open modal
-  </button>
-
   <!-- The Modal -->
   <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Modal Heading</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div class="modal-content">      
+              <!-- Modal body -->
+        <section class="mbr-section form3 cid-rn9Dxsz5J6" id="form3-c">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-12 col-lg-8">
+                <h3 class="align-center pb-2 mbr-fonts-style display-2">
+                    Welcome
+                </h3>
+                
+            </div>
         </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-         	<form id="form2" class="form-group" role="form">
-         		<label for="usuario">Usuario:</label>
-        <input type="text" class="form-control ml-4 mr-4" id="usuario" placeholder="Usuario"
-					name="usuario" required="required">
-        <label for="pwd">Password:</label>
-        <input	type="password" class="form-control ml-4 mr-4" id="pwd" 
-					placeholder="Entre su password" name="pwd" required="required" >
-        <div class="form-check"></div>        
-        <input id="aceptar" type="button" class="btn btn-success ml-4 mt-2" value="Aceptar">
-         	</form>
+
+        <div class="row py-2 justify-content-center">
+            <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
+                <!---Formbuilder Form--->
+                <form  method="GET" class="mbr-form form-with-styler">            
+               <div class="dragArea row">
+                        <div class="form-group col" data-for="email">
+                            <input type="usuario" name="usuario" placeholder="Usuario" data-form-field="Usuario"
+                             required="required" class="form-control display-7" id="usuario">
+                        </div>
+                        </div>
+                        <div class="dragArea row">
+                        	<div class="form-group col" data-for="email">
+                            	<input type="password" name="password" placeholder="Password" data-form-field="Password" 
+                            	required="required" class="form-control display-7" id="password">
+                        	</div>
+                        </div>
+                        <div class="dragArea row">
+                         <div class="col-auto input-group-btn">
+                            <a type="button" class="btn btn-primary  display-4" href="irformulario">ACEPTAR</a>
+                        </div>
+                    </div>
+                </form><!---Formbuilder Form--->
+            </div>
         </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-        
+    </div>
+</section>        
       </div>
     </div>
   </div>
