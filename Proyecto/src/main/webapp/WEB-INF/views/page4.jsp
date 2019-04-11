@@ -45,7 +45,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="https://mobirise.co">Contact Us
+                    <a class="nav-link link text-black display-4" href="contacus">Contact Us
                     </a>
                 </li></ul>
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:+1-234-567-8901"><span class="mbri-globe-2 mbr-iconfont mbr-iconfont-btn"></span>
@@ -158,27 +158,27 @@
                     
                     
                 <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://instagram.com/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div></div>

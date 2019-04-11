@@ -19,9 +19,7 @@
   <link rel="stylesheet" href="resources/assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="resources/assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="resources/assets/theme/css/style.css">
-  <link rel="stylesheet" href="resources/assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
+  <link rel="stylesheet" href="resources/assets/mobirise/css/mbr-additional.css" type="text/css">  
   
 </head>
 <body>
@@ -32,16 +30,8 @@
        <div class="row justify-content-center">        
             <div class="title col-12 col-lg-8">
                 <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">
-                    FORMULARIO CLIENTE
-                </h2> 
-                <label for="vuelos">HOTELES</label>
-                <select id="vuelos" name="vuelos"> 
-    	  <option class="dropdown-item"></option>
-<%-- 	    <c:forEach items="${m.vuelos}" var="v">  --%>
-<%-- 	    	<option class="dropdown-item" value='<c:out value="${v.id}"></c:out>'> --%>
-<%-- 	    	<c:out value="${v.destino}"></c:out></option> --%>
-<%-- 	    </c:forEach>    --%>
-       </select>               
+                    FORMULARIO
+                </h2>                            
             </div>
         </div>
     </div>
@@ -49,7 +39,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" 
+                <form action="#" method="POST" class="mbr-form form-with-styler" 
                 data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" 
                 value="">                    
                     <div class="dragArea row row-sm-offset">
@@ -121,7 +111,7 @@
               <tr class="table-heads ">         
               <th class="head-item mbr-fonts-style display-7"> NOMBRE</th>
                       <th class="head-item mbr-fonts-style display-7">LAST NAME</th>
-                      <th class="head-item mbr-fonts-style display-7">DATE &nbsp;IN</th>
+                      <th class="head-item mbr-fonts-style display-7">DATE IN</th>
                       <th class="head-item mbr-fonts-style display-7">DATE OUT</th>
                       <th class="head-item mbr-fonts-style display-7">TELEPHONE</th>
                       <th class="head-item mbr-fonts-style display-7">EMAIL</th>
@@ -131,17 +121,16 @@
                       <th class="head-item mbr-fonts-style display-7">DELETE</th>
                 </tr>
             </thead>
-
             <tbody>            
             <tr>              
-              <td class="body-item mbr-fonts-style display-7">Jeanna Schmal</td>
-              <td class="body-item mbr-fonts-style display-7">44</td>
+              <td class="body-item mbr-fonts-style display-7">Jeanna</td>
+              <td class="body-item mbr-fonts-style display-7">Schmal</td>
               <td class="body-item mbr-fonts-style display-7">2016-10-17</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
+              <td class="body-item mbr-fonts-style display-7">2016-10-17</td>
+              <td class="body-item mbr-fonts-style display-7">653 4783</td>
+              <td class="body-item mbr-fonts-style display-7">jjjjj@gggg.com</td>
+              <td class="body-item mbr-fonts-style display-7">y6723987f</td>
+              <td class="body-item mbr-fonts-style display-7">Hotel 1</td>
               <td class="body-item mbr-fonts-style display-7">
               	<a href="/proyectoMod5/edit">Edit</a>
               </td>
@@ -150,16 +139,37 @@
               	</td>
               </tr>
               <tr>              
-              <td class="body-item mbr-fonts-style display-7">Pavel Schmal</td>
-              <td class="body-item mbr-fonts-style display-7">44</td>
+              <td class="body-item mbr-fonts-style display-7">Pavel </td>
+              <td class="body-item mbr-fonts-style display-7">Castellanos</td>
               <td class="body-item mbr-fonts-style display-7">2016-10-17</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
-              <td class="body-item mbr-fonts-style display-7">$317.000</td>
+              <td class="body-item mbr-fonts-style display-7">2016-10-17</td>
+              <td class="body-item mbr-fonts-style display-7">672 4783</td>
+              <td class="body-item mbr-fonts-style display-7">ppppp@ggg.com</td>
+              <td class="body-item mbr-fonts-style display-7">x6723987f</td>
+              <td class="body-item mbr-fonts-style display-7">Hotel 2</td>
+              <td class="body-item mbr-fonts-style display-7">
+              <a href="/proyectoMod5/edit">Edit</a>
+              </td>
+              <td class="body-item mbr-fonts-style display-7">
+              <a href="/proyectoMod5/delete">DELETE</a>
+              </td>
+              </tr>
+              </tr>
+              <tr>              
+              <td class="body-item mbr-fonts-style display-7">Marcos</td>
+              <td class="body-item mbr-fonts-style display-7">Manuel</td>
+              <td class="body-item mbr-fonts-style display-7">2016-10-17</td>
+              <td class="body-item mbr-fonts-style display-7">2016-10-17</td>
+              <td class="body-item mbr-fonts-style display-7">695 4783</td>
+              <td class="body-item mbr-fonts-style display-7">mmmm@ggg.com</td>
+              <td class="body-item mbr-fonts-style display-7">z6723987f</td>
+              <td class="body-item mbr-fonts-style display-7">Hotel 3</td>
+              <td class="body-item mbr-fonts-style display-7">
+               <a href="/proyectoMod5/edit">Edit</a>
+               </td>
+              <td class="body-item mbr-fonts-style display-7">
+              <a href="/proyectoMod5/delete">DELETE</a>
+              </td>
               </tr>
               </tbody>
           </table>
@@ -183,6 +193,7 @@
     </div>
 </section>
 
+<script src="resources/project.js"></script>
 
   <script src="resources/assets/web/assets/jquery/jquery.min.js"></script>
   <script src="resources/assets/popper/popper.min.js"></script>

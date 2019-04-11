@@ -40,8 +40,8 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobirise.co">
-                         <img src="resources/page5/assets/images/mbr-2-122x122.jpg" alt="Mobirise" title="" style="height: 3.8rem;">
+                    <a href="/Proyecto">
+                         <img src="resources/page5/assets/images/mbr-2-122x122.jpg" alt="" title="" style="height: 3.8rem;">
                     </a>
                 </span>
                 
@@ -49,7 +49,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="https://mobirise.co">
+                    <a class="nav-link link text-white display-4" href="allhotels">
                         <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                         All Hotels &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>
                 </li></ul>
@@ -124,7 +124,7 @@
                     WHAT OUR FANTASTIC USERS SAY
                 </h2>
                 <h3 class="mbr-section-subtitle mbr-light pb-3 mbr-fonts-style display-5">
-                    This theme is based on Bootstrap 4 - most powerful mobile first framework
+                    This theme is the - mobile first 
                 </h3>
             </div>
         </div>
@@ -234,27 +234,27 @@
                     
                     
                 <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://instagram.com/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div></div>

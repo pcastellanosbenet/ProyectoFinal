@@ -42,7 +42,7 @@
                     <a class="nav-link link text-white display-4" href="contacus">
                         <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Contac us</a>
                 </li><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="https://mobirise.com">
+                    <a class="nav-link link text-white display-4" href="#">
                         <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Buscar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>
                 </li></ul>
             <div class="navbar-buttons mbr-section-btn">
@@ -53,10 +53,6 @@
         </div>
     </nav>
 </section>
-
-	<section class="engine">
-		<a href="https://mobirise.info/r">bootstrap template</a>
-	</section>
 	<section class="mbr-gallery mbr-slider-carousel cid-rmYLqhmfT0"
 		id="gallery2-5">
 		<div>
@@ -258,27 +254,27 @@
                 <div class="social-list align-right pb-2">                       
                                  
                 <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://instagram.com/mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                        <a href="www.linkedin.com/in/pavel-castellanos-1989pcb" target="_blank">
                             <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
                         </a>
                     </div></div>
@@ -290,53 +286,51 @@
     </div>    
 </section>
 
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">      
-              <!-- Modal body -->
-        <section class="mbr-section form3 cid-rn9Dxsz5J6" id="form3-c">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-lg-8">
-                <h3 class="align-center pb-2 mbr-fonts-style display-2">
-                    Welcome
-                </h3>
-                
-            </div>
-        </div>
 
+	<div class="modal fade" id="myModal">
+	
+		<div class="modal-dialog">
+		<div class="modal-content">
         <div class="row py-2 justify-content-center">
-            <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
-                <!---Formbuilder Form--->
-                <form  method="GET" class="mbr-form form-with-styler">            
+        <div class="title col-12 col-lg-8">
+                <h4 class="align-center pb-2 mbr-fonts-style display-2">
+                    WELCOME
+                </h4>               
+            </div>    
+        
+            <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">           
+                <div class="modal-body">
+                <form  id="form1" method="GET" action="irformulario" class="mbr-form form-with-styler"> 
+                           
                <div class="dragArea row">
                         <div class="form-group col" data-for="email">
-                            <input type="usuario" name="usuario" placeholder="Usuario" data-form-field="Usuario"
+                            <input type="text" name="usuario" placeholder="Usuario" data-form-field="Usuario"
                              required="required" class="form-control display-7" id="usuario">
                         </div>
                         </div>
                         <div class="dragArea row">
                         	<div class="form-group col" data-for="email">
-                            	<input type="password" name="password" placeholder="Password" data-form-field="Password" 
+                            	<input type="text" name="password" placeholder="Password" data-form-field="Password" 
                             	required="required" class="form-control display-7" id="password">
                         	</div>
                         </div>
                         <div class="dragArea row">
                          <div class="col-auto input-group-btn">
-                            <a type="button" class="btn btn-primary  display-4" href="irformulario">ACEPTAR</a>
+                           <button type="submit" class="btn btn-primary  display-4" href="irformulario">ACEPTAR</button>
                         </div>
                     </div>
-                </form><!---Formbuilder Form--->
+                </form>
             </div>
+             </div>
         </div>
     </div>
-</section>        
-      </div>
     </div>
-  </div>
+    </div>
+  
+       
+      
 
-
+  <script src="resources/project.js"></script>
 
   <script src="resources/assets/web/assets/jquery/jquery.min.js"></script>
   <script src="resources/assets/popper/popper.min.js"></script>
